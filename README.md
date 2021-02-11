@@ -6,4 +6,6 @@ Le fichier mat1.py permet d'utiliser le jeu de donnée qui fonctionne ( le premi
 
 ![Alt text](https://github.com/FrancoisFr/TP_QualiteDesDonnees/blob/main/fichier/GrapheAnnuel.PNG?raw=true)
 
+![Alt text](https://github.com/FrancoisFr/TP_QualiteDesDonnees/blob/main/fichier/GrapheMoisParMois.PNG?raw=true)
+
 
