@@ -1,8 +1,16 @@
 # TP_QualiteDesDonnees
 
 Ce travail à été effectué sous pyCharm.
+Pour répondre aux besoin du TP, 2 fichiers différents ont été créé.
 
-Pour répondre aux besoin du TP, 2 fichiers différent ont été crée.
+<b>Contexte :</b>
+
+Nous avons reçu deux jeux de données météorologique (Climat.xlsx et Savukoski_kyrkonkyla.xlsx).
+L'objectif de ce TP est de comparer les deux jeux de données afin de trouver de quel endroit provient le jeux de données Climat.xlsx de manière approximative.
+
+Pour ce faire nous allons mettre en oeuvre un environnement de traitement graphique avec les deux jeux de données afin d'analyser les courbes qui en ressorte.
+
+<b>Mise en oeuvre :</b>
 
 Le fichier mat1.py permet d'utiliser le jeu de donnée de la première feuille ( le premier dans le fichier) afin de fournir un graphe regroupant les températures de chaque jour de l'année dans une fenêtre, ainsi qu'un graphe pour chaque mois dans une seconde fenêtre.
 
@@ -24,6 +32,7 @@ Une fois cela fait, chaque valeur nulle est remplacé par la valeur médiane des
 
 ![Alt text](https://github.com/FrancoisFr/TP_QualiteDesDonnees/blob/main/fichier/GrapheMoisParMoisErreur.PNG?raw=true)
 
+
 Ce qui donne en graphe annuel:
 
 ![Alt text](https://github.com/FrancoisFr/TP_QualiteDesDonnees/blob/main/fichier/GrapheAnnuelErreur.PNG?raw=true)
@@ -31,3 +40,12 @@ Ce qui donne en graphe annuel:
 Enfin, de la même manière en cliquant sur le graphe on en obtient un nouveau graphe avec 15 jours avant et après le curseur:
 
 ![Alt text](https://github.com/FrancoisFr/TP_QualiteDesDonnees/blob/main/fichier/Graphe30JoursErreur.PNG?raw=true)
+
+
+<b>Conclusion : </b>
+  
+  Nous pouvons en conclure que le climat de Savukoski_kyrkonkyla.xlsx est un climat subartic.
+  Or le climat de Climat.xlsx se trouve être un climat plutôt continental. 
+  Nous pouvons donc en conclure que Climat.xlsx se trouve plus au sud que Savukoski_kyrkonkyla.xlsx bien que la distance entre les deux ne doit pas être très grande.
+  
+  Nous pensons donc que la capital européene la plus proche de Climat.xlsx se trouve être la capital de la Finlande Helsinki.
