@@ -12,6 +12,7 @@ Pour ce faire nous allons mettre en oeuvre un environnement de traitement graphi
 
 <b>Mise en oeuvre :</b>
 
+<b>Climat.xlsx : </b>
 Le fichier mat1.py permet d'utiliser le jeu de donnée de la première feuille ( le premier dans le fichier) afin de fournir un graphe regroupant les températures de chaque jour de l'année dans une fenêtre, ainsi qu'un graphe pour chaque mois dans une seconde fenêtre.
 
 ![Alt text](https://github.com/FrancoisFr/TP_QualiteDesDonnees/blob/main/fichier/GrapheAnnuel.PNG?raw=true)
@@ -40,6 +41,18 @@ Ce qui donne en graphe annuel:
 Enfin, de la même manière en cliquant sur le graphe on en obtient un nouveau graphe avec 15 jours avant et après le curseur:
 
 ![Alt text](https://github.com/FrancoisFr/TP_QualiteDesDonnees/blob/main/fichier/Graphe30JoursErreur.PNG?raw=true)
+
+<b>Savukoski_kyrkonkyla.xlsx : </b>
+
+Le fichier Savukoski_graph.py tous comme le fichier mat2.py va nous permettre de corriger les erreurs ou les manques au sein du jeux de données que l'on nous a fournis en faisant en sorte de les remplacer par une valeur médiane.
+Ce fichier va nous permettre aussi d'afficher de manière graphique les valeurs du jeux de données en fonction du mois de l'année ou alors de l'année dans son ensemble.
+
+Sur l'image suivante nous avons les graphiques des 12 mois de l'année en fonction de la T° moyenne de la journée au niveau de la sonde Savukoski_kyrkonkyla.
+Cela va nous permettre de faire une comparaison plus précise des valeurs par mois entre les données opendate et les données de la sonde Savukoski_kyrkonkyla.
+![Alt text](https://github.com/FrancoisFr/TP_QualiteDesDonnees/blob/main/fichier/GraphesMoisParMoisMoyenne.png)
+
+
+![Alt text](https://github.com/FrancoisFr/TP_QualiteDesDonnees/blob/main/fichier/GrapheAnnuelMoyenne.png)
 
 
 <b>Conclusion : </b>
