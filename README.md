@@ -2,7 +2,7 @@
 
 Ce travail à été effectué sous pyCharm.
 
-Pour répondre aux besoin du TP, 2 fichiers différent ont été créer.
+Pour répondre aux besoin du TP, 2 fichiers différent ont été crée.
 
 Le fichier mat1.py permet d'utiliser le jeu de donnée de la première feuille ( le premier dans le fichier) afin de fournir un graphe regroupant les températures de chaque jour de l'année dans une fenêtre, ainsi qu'un graphe pour chaque mois dans une seconde fenêtre.
 
