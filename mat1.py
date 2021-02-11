@@ -75,7 +75,6 @@ fig, ax = plt.subplots()
 #        xtab_temp.append(df["jour"][x1 - 15 + n])
 #        ytab_temp.append(df["Température"][x1 - 15 + n])
 
-plt.subplots_adjust(left=0.1, bottom=0.5)
 plt.plot(df["jour"], df["Température"])
 #p, = plt.plot(xtab_temp, ytab_temp)
 plt.title("Graphe annuel")
