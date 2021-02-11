@@ -3,14 +3,14 @@
 Ce travail à été effectué sous pyCharm.
 Pour répondre aux besoin du TP, 2 fichiers différents ont été créé.
 
-<b>Contexte :<b>
+<b>Contexte :</b>
 
 Nous avons reçu deux jeux de données météorologique (Climat.xlsx et Savukoski_kyrkonkyla.xlsx).
 L'objectif de ce TP est de comparer les deux jeux de données afin de trouver de quel endroit provient le jeux de données Climat.xlsx de manière approximative.
 
 Pour ce faire nous allons mettre en oeuvre un environnement de traitement graphique avec les deux jeux de données afin d'analyser les courbes qui en ressorte.
 
-<b>Mise en oeuvre :<b>
+<b>Mise en oeuvre :</b>
 
 Le fichier mat1.py permet d'utiliser le jeu de donnée de la première feuille ( le premier dans le fichier) afin de fournir un graphe regroupant les températures de chaque jour de l'année dans une fenêtre, ainsi qu'un graphe pour chaque mois dans une seconde fenêtre.
 
@@ -42,7 +42,7 @@ Enfin, de la même manière en cliquant sur le graphe on en obtient un nouveau g
 ![Alt text](https://github.com/FrancoisFr/TP_QualiteDesDonnees/blob/main/fichier/Graphe30JoursErreur.PNG?raw=true)
 
 
-<b>Conclusion : <b>
+<b>Conclusion : </b>
   
   Nous pouvons en conclure que le climat de Savukoski_kyrkonkyla.xlsx est un climat subartic.
   Or le climat de Climat.xlsx se trouve être un climat plutôt continental. 
