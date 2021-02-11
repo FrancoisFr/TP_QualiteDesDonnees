@@ -67,14 +67,6 @@ plt.title("Décembre")
 
 # graphes à l'année avec un curseur
 fig, ax = plt.subplots()
-#wallah je tente un truc
-#x1 = 16
-
-#for n in range(30):
-#    if ((x1 - 15 + n) > 0) & ((x1 - 15 + n) < 365):
-#        xtab_temp.append(df["jour"][x1 - 15 + n])
-#        ytab_temp.append(df["Température"][x1 - 15 + n])
-
 plt.plot(df["jour"], df["Température"])
 #p, = plt.plot(xtab_temp, ytab_temp)
 plt.title("Graphe annuel")
@@ -98,7 +90,7 @@ def onClick(event):
     plt.show()
 
 #plt.axes([0, 10, 0, 365])
-
+# tentatives infructueuse d'ajouter des slider
 #axSlider = plt.axes([0.1, 0.1, 0.8, 0.05])
 #plotSlider = Slider(axSlider, 'Test Slider',
 #                    valmin = 15,
