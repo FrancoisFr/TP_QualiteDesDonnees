@@ -50,10 +50,12 @@ Afin de corriger celles-ci, nous vérifions dans le programme chaque variable, c
 
 ![Alt text](https://github.com/FrancoisFr/TP_QualiteDesDonnees/blob/main/fichier/CodeCorrectionErreur.PNG?raw=true)
 
+Une fois cela fait, chaque valeur nulle est remplacé par la valeur médiane des températures du mois. Cela nous permet d'obtenir les graphes suivants:
+
+
 ![Alt text](https://github.com/FrancoisFr/TP_QualiteDesDonnees/blob/main/fichier/GrapheMoisParMoisErreur.PNG?raw=true)
 
 
-Une fois cela fait, chaque valeur nulle est remplacé par la valeur médiane des températures du mois. Cela nous permet d'obtenir les graphes suivants:
 
 
 Ce qui donne en graphe annuel:

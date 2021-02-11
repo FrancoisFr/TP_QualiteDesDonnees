@@ -151,17 +151,7 @@ temp_max = []
 #                linewidth=2.0)
 
 # fonction pour afficher un graphe contenant 30 jours de données centrée sur le curseur
-def onClick(event):
-    xtab_temp = []
-    ytab_temp = []
-    x1 = event.xdata
-    x2 = round(x1)
-    for n in range(30):
-        xtab_temp.append(days[x2-15+n])
-        ytab_temp.append(temp[x2-15+n])
-    plt.figure()
-    plt.plot(xtab_temp, ytab_temp)
-    plt.show()
+
 
 #fig.canvas.mpl_connect('button_press_event', onClick)
 #plt.show()
@@ -232,15 +222,18 @@ while i < 13:
 
     # calcul de la median du mois et remplacement des valeurs manquantes par la median
     median = df2[mois + "_median"][1:j].median()
-    df2[mois].fillna(median, inplace=True)
+    df2[mois + "_median"].fillna(median, inplace=True)
 
     plt.subplot(6,2,i)
     plt.plot(df2["jour" + "_median"], df2[mois + "_median"])
     plt.title(mois + "_moyenne" )
+    for n in range(j):
+        temp_max.append(df2[mois + "_median"][n])
+
     i += 1
 plt.show()
 
-fig3, ax = plt.subplots()
+fig, ax = plt.subplots()
 plt.title("Graphe annuel température moyenne")
 plt.plot(days, temp_max)
 cursor = Cursor(ax,
@@ -249,8 +242,20 @@ cursor = Cursor(ax,
                 color='red',
                 linewidth=2.0)
 
-# fonction pour afficher un graphe contenant 30 jours de données centrée sur le curseur
 
-fig3.canvas.mpl_connect('button_press_event', onClick)
+# fonction pour afficher un graphe contenant 30 jours de données centrée sur le curseur
+def onClick(event):
+    xtab_temp = []
+    ytab_temp = []
+    x1 = event.xdata
+    x2 = round(x1)
+    for n in range(30):
+        xtab_temp.append(days[x2-15+n])
+        ytab_temp.append(temp[x2-15+n])
+    plt.figure()
+    plt.plot(xtab_temp, ytab_temp)
+    plt.show()
+
+fig.canvas.mpl_connect('button_press_event', onClick)
 plt.show()
 #print(df2["mars"][0:32].isnull())
