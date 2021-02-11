@@ -73,10 +73,12 @@ Ce fichier va nous permettre aussi d'afficher de manière graphique les valeurs 
 
 Sur l'image suivante nous avons les graphiques des 12 mois de l'année en fonction de la T° moyenne de la journée au niveau de la sonde Savukoski_kyrkonkyla.
 Cela va nous permettre de faire une comparaison plus précise des valeurs par mois entre les données opendate et les données de la sonde Savukoski_kyrkonkyla.
+
 ![Alt text](https://github.com/FrancoisFr/TP_QualiteDesDonnees/blob/main/fichier/GraphesMoisParMoisMoyenne.png?raw=true)
 
 Sur cette image nous avons le graphique annuel de la sonde Savukoski_kyrkonkyla en fonction de la T° moyenne.
 Cette image tous comme celle des graphiques mensuels va nous permettre de comparer la courbe à celle de Climat.xlsx
+
 ![Alt text](https://github.com/FrancoisFr/TP_QualiteDesDonnees/blob/main/fichier/GrapheAnnuelMoyenne.png?raw=true)
 
 
