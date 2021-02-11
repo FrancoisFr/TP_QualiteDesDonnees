@@ -9,7 +9,10 @@ df2 = pd.read_excel('Savukoski_kirkonkyla.xlsx', 'Temp', engine='openpyxl')
 
 days = df2["Jour"]
 temp = []
+temp_max = []
 
+
+# graphe mois par mois sur les températures minimales
 i = 1
 j = 0
 mois = ""
@@ -73,6 +76,8 @@ while i < 13:
 
 plt.show()
 
+
+#graphe mois par mois sur les températures maximal
 i = 1
 j = 0
 mois = ""
@@ -132,12 +137,13 @@ while i < 13:
     plt.title(mois + "_max")
     i += 1
     for n in range(j):
-        temp.append(df2[mois + "_max"][n])
+        temp_max.append(df2[mois + "_max"][n])
 
 plt.show()
 
+
 fig, ax = plt.subplots()
-plt.title("Graphe annuel")
+plt.title("Graphe annuel température min")
 plt.plot(days, temp)
 cursor = Cursor(ax,
                 horizOn=True,
@@ -161,7 +167,19 @@ def onClick(event):
 fig.canvas.mpl_connect('button_press_event', onClick)
 plt.show()
 
+fig2, ax = plt.subplots()
+plt.title("Graphe annuel température min")
+plt.plot(days, temp_max)
+cursor = Cursor(ax,
+                horizOn=True,
+                vertOn=True,
+                color='red',
+                linewidth=2.0)
 
+# fonction pour afficher un graphe contenant 30 jours de données centrée sur le curseur
+
+fig2.canvas.mpl_connect('button_press_event', onClick)
+plt.show()
 
 
 #print(df2["mars"][0:32].isnull())
