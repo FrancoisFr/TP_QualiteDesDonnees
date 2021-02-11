@@ -6,4 +6,4 @@ Le fichier mat1.py permet d'utiliser le jeu de donnée qui fonctionne ( le premi
 
 ![Alt text](fichier/Grapheannuel.png?raw=true "GrapheAnnuel")
 
-![Alt_text](https://github.com/FrancoisFr/TP_QualiteDesDonnees/fichier/[branch]/GrapheAnnuel?raw=true)
+![Alt text](https://github.com/FrancoisFr/TP_QualiteDesDonnees/fichier/[branch]/GrapheAnnuel?raw=true)
